@@ -1,0 +1,16 @@
+FROM ubuntu:16.04
+RUN apt-get update
+RUN apt-get install -y python python-dev python-distribute python-pip
+
+#run npm installs...
+
+ADD . /src
+WORKDIR /src
+
+npm install strapi webpack webpack-cli webpack-dev-server forever -g
+npm install
+
+cd strapi
+RUN ./install.sh
+
+ENTRYPOINT [ "node", "api/build/server.js" ]

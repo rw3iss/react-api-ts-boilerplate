@@ -1,0 +1,16 @@
+#3rd party
+node_modules
+yarn.lock
+package-lock.json
+
+#macos
+.DS_Store
+
+#built files
+#api/build #we are keeping api build so we can avoid building for production on server
+client/build
+
+#redis dumps
+dump.rdb
+
+\.vscode/

@@ -1,0 +1,4 @@
+{
+    "API_DOMAIN": "http://localhost:1337",
+    "SHOPIFY_DOMAIN": "http://api.shopify.com/todo"
+}
