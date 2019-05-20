@@ -1,0 +1,25 @@
+{
+    "database": {
+        "host": "localhost",
+        "user": "ropt",
+        "pass": "root",
+        "database": "forex",
+        "multipleStatements": true,
+        "socket": "/Applications/MAMP/tmp/mysql/mysql.sock"
+    },
+    
+    "TimeZone": "America/New_York",
+    
+    "OpenExchangeRateAppID": "2c01b9a11a2a412d88b92ef8c211109e",
+    "GetForexDataAccessKey": "wyyypqhc5qr5fts9pgtdhwiy91bk7f7f4xz8j4xxlvwbjk858mwyu2f18n7q8vw0",
+    "1ForgeApiKey": "D21IvRsIGmDedbjZx1lK6CnT9UA1eR7m",
+    "AlphaVantageApiKey": "92EIFWVGIF09Z1CW",
+
+    "IntrinioAPIKey": "Ojc1ODMxNzU2M2JhOWNiMzJkYWRhNzBlOTI5YmExMTkx",
+    "IntrinioExcelUsername": "9edb8b3c792dfea264c3f4a9bf88479f",
+    "IntrinioExcelPassword": "10b95588de94d37f08e5adb61461dc88",
+
+    "DataSavePath": "/Users/rw3iss/Sites/forex-bp/src/cli/price_data/",
+
+    "InterestedQuotePairs": ["EURUSD", "GBPJPY", "AUDUSD"]
+}
